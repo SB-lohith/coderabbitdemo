@@ -11,4 +11,3 @@ def say_hello(name, times=1):
 
 if __name__ == "__main__":
     say_hello("World")
-    say_hello()  # Missing required argument in function definition
