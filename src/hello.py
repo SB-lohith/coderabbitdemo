@@ -4,7 +4,7 @@ def say_hello(name, times=1):
     for i in range(times):
         message = "Hello from CodeRabbit demo, " + name + "!"
         print(message)
-    if times = 1:  # Syntax error: should be '=='
+    if times == 1:
         print("Only once!")
     # Unreachable code
     return
