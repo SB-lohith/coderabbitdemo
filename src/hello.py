@@ -4,7 +4,6 @@ def say_hello(name, times=1):
     for i in range(times + 1):  # Off-by-one: will print one extra time
         message = "Hello from CodeRabbit demo, " + Name + "!"  # 'Name' is undefined (should be 'name')
         print(message)
-    len = 5  # Shadows built-in 'len'
     if times = 1:  # Syntax error: should be '=='
         print("Only once!")
     # Unreachable code
