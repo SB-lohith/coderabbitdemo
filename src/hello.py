@@ -8,13 +8,6 @@ def say_hello(name, times=1):
         print("Only once!")
     # Unreachable code
     return
-    print("This will never print.")
-    # Unused import
-    import math
-    try:
-        result = 10 / 0  # This will raise a ZeroDivisionError
-    finally:
-        print("This will always execute, even if an error occurs.")
 
 if __name__ == "__main__":
     say_hello("World")
